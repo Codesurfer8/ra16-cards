@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: 20px;
+}
+
+.text-block {
+    border: 1px solid rgb(203, 197, 197);
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(62, 61, 61);
+}
+
+.text {
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: rgb(28, 137, 232);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px black;
+}
+
+.btn:hover {
+    background-color: rgb(24, 111, 187);
+}
+
+.btn-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
